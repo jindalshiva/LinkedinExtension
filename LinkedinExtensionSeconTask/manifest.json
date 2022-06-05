@@ -1,0 +1,16 @@
+{
+	"name": "Linkedin Web Scrapper",
+	"version": "1.0",
+	"description": "To get first name, last name and company name",
+	"permissions": ["declarativeContent", "activeTab", "tabs", "downloads", "scripting"],
+	"host_permissions": [
+		"<all_urls>"
+	  ],
+		"browser_action": {
+			"default_icon":"images/logo_128.png"
+		},
+	"action": {
+    	"default_popup": "popup.html"
+    },
+	"manifest_version": 3
+}
