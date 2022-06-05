@@ -62,20 +62,5 @@ function getDataFromLinkedin() {
 	  console.log(profileDetails);
 		console.save(profileDetails, profileDetails[0]["FirstName"] + " " + profileDetails[0]["LastName"] + ".json");
 	}
-  // let name = document.querySelector("div.entity-result__content").innerText.split("\n")[0];
-	//
-  // profileDetails[0]['FirstName'] = name.split(" ")[0];
-  // profileDetails[0]['LastName'] = name.split(" ")[1];
-	//
-  // profileDetails[0]['Company'] = document.querySelector(".entity-result__summary").innerText;
 
-
-}
-// async function to wait for x seconds
-async function waitSeconds(seconds) {
-	return new Promise(function(resolve, reject) {
-		setTimeout(function() {
-			resolve();
-		}, seconds*1000);
-	});
 }
