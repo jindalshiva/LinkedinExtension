@@ -48,7 +48,7 @@ function getDataFromLinkedin() {
 	})(console)
 
 
-  var profileDetails = [{},{}];
+  var profileDetails = [{}];
 	var profiles = [];
 	var company_name = [];
 
